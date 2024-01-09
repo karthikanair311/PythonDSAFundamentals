@@ -55,15 +55,6 @@ def ll(arr):
         last = last.next
     return head
 
-if __name__ == "__main__":
-    arr = list(int(i) for i in input().strip().split(' '))
-    i = int(input())
-    l = ll(arr[:-1])  # Excluding the last element (-1) which indicates the end of the list
-    node = ithNode(l, i)
-    if node:
-        print(node.data)
-
-
 # Example Usage:
 if __name__ == "__main__":
     # Example 1:
